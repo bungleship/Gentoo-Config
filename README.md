@@ -14,7 +14,7 @@ fdisk /dev/sda
 mkfs.vfat -F 32 /dev/sda1
 mkfs.ext4 /dev/sda2
 ```
-We now mount the home partition and extract the stage 3 tarball.
+We now mount the root partition and extract the stage 3 tarball.
 ```bash
 mount /dev/sda2 /mnt/gentoo
 cd /mnt/gentoo
@@ -39,9 +39,8 @@ chroot /mnt/gentoo /bin/bash
 source /etc/profile
 mount /dev/sda1 /boot
 ```
-Now tweak your `etc/portage/make.conf` file, and update
+Copy in `make.conf` and the package sets into `/etc/portage/sets`, and update
 ```bash
-nano etc/portage/make.conf
 emerge-webrsync
 eselect profile list
 emerge --ask --verbose --update --deep --newuse @world
