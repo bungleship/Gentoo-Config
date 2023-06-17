@@ -1,0 +1,10 @@
+app-admin/sudo
+sys-fs/f2fs-tools
+app-misc/neofetch
+dev-vcs/git
+app-misc/tmux
+media-video/mpv
+app-editors/vim
+media-sound/alsa-utils
+x11-base/xorg-server
+sys-fs/fuse:0
