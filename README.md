@@ -28,19 +28,20 @@ cp --dereference /etc/resolv.conf etc/
 ```
 Now we mount and chroot
 ```bash
-mount --types proc /proc /mnt/gentoo/proc
-mount --rbind /sys /mnt/gentoo/sys
-mount --make-rslave /mnt/gentoo/sys
-mount --rbind /dev /mnt/gentoo/dev
-mount --make-rslave /mnt/gentoo/dev
-mount --bind /run /mnt/gentoo/run
-mount --make-slave /mnt/gentoo/run
+mount --types proc /proc ./proc
+mount --rbind /sys ./sys
+mount --make-rslave ./sys
+mount --rbind /dev ./dev
+mount --make-rslave ./dev
+mount --bind /run ./run
+mount --make-slave ./run
 chroot /mnt/gentoo /bin/bash
 source /etc/profile
 mount /dev/sda1 /boot
 ```
 Now tweak your `etc/portage/make.conf` file, and update
 ```bash
+nano etc/portage/make.conf
 emerge-webrsync
 eselect profile list
 emerge --ask --verbose --update --deep --newuse @world
