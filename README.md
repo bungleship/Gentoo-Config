@@ -77,6 +77,7 @@ There are some things you want to configure:
 - `/etc/fstab` - make sure the labels are correct
 - `/etc/conf.d/hwclock` - check instructions inside
 - `/etc/hosts` set more aliases or nicknames
+- `/etc/sudoers` for sudo
 
 Setup the bootloader
 ```bash
