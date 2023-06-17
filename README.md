@@ -95,4 +95,5 @@ umount -R /mnt/gentoo
 Now make a user
 ```bash
 useradd -m -G users,wheel,audio -s /bin/bash leo
+passwd leo
 ```
