@@ -46,3 +46,27 @@ emerge-webrsync
 eselect profile list
 emerge --ask --verbose --update --deep --newuse @world
 ```
+Now we do a few tweaks.
+```bash
+# cpu flags
+emerge --ask app-portage/cpuid2cpuflags
+echo "*/* $(cpuid2cpuflags)" > /etc/portage/package.use/00cpu-flags
+# timezone
+echo "US/Pacific" > /etc/timezone
+emerge --config sys-libs/timezone-data
+echo '
+en_US ISO8859-1
+en_US.UTF8 UTF8
+' >> /etc/locale.gen
+locale-gen
+eselect locale set 6
+env-update
+source /etc/profile
+```
+Install firmware and kernel, here we just take the binary
+```bash
+emerge --ask sys-kernel/linux-firmware sys-firmware/intel-microcode
+emerge --ask sys-kernel/gentoo-kernel-bin
+emerge --depclean
+```
+Configure fstab, then we move on to network setup
