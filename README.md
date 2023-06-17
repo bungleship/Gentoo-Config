@@ -67,4 +67,27 @@ emerge --ask sys-kernel/linux-firmware sys-firmware/intel-microcode
 emerge --ask sys-kernel/gentoo-kernel-bin
 emerge --depclean
 ```
-Configure fstab, then we move on to network setup
+First, set a hostname. Then grab all the system tools in sys0. Don't forget rc-updates
+```bash
+echo ${hostname} > /etc/hostname
+emerge --ask @leo-sys0
+# rc-update ${} default
+```
+There are some things you want to configure:
+- `/etc/fstab` - make sure the labels are correct
+- `/etc/conf.d/hwclock` - check instructions inside
+- `/etc/hosts` set more aliases or nicknames
+
+Setup the bootloader
+```bash
+grub-install --target-x86_64-efi --efi-directory=/boot
+grub-mkconfig -o /boot/grub/grub.cfg
+```
+set a root password, exit and reboot into your new machine!
+```bash
+passwd
+exit
+cd
+umount -l /mnt/gentoo/dev{/shm,/pts,}
+umount -R /mnt/gentoo
+```
