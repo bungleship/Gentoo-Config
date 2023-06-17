@@ -42,7 +42,6 @@ mount /dev/sda1 /boot
 Copy in `make.conf` and the package sets into `/etc/portage/sets`, and update
 ```bash
 emerge-webrsync
-eselect profile list
 emerge --ask --verbose --update --deep --newuse @world
 ```
 Now we do a few tweaks.
