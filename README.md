@@ -7,7 +7,7 @@ We are using the environment provided by Gentoo, and we are using a wired connec
 ip addr
 ping -c 3 www.gentoo.org
 ```
-Now you partition your drive and set up filesystems
+Now you partition your drive and set up filesystems. I am using sda1 for boot partition and sda2 for root partition.
 ```bash
 lsblk
 fdisk /dev/sda
