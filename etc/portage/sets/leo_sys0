@@ -1,0 +1,11 @@
+# After installing kernel
+
+sys-apps/mlocate
+sys-boot/grub
+
+# for the following, run the command afterwards
+# rc-update add {package} default
+net-misc/dhcpcd
+app-admin/sysklogd
+sys-process/cronie
+net-misc/chrony # chronyd for rc-update
