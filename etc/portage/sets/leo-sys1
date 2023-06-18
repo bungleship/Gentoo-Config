@@ -8,3 +8,4 @@ app-editors/vim
 media-sound/alsa-utils
 x11-base/xorg-server
 sys-fs/fuse:0
+app-portage/eix
