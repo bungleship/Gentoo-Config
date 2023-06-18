@@ -1,2 +1,6 @@
-x11-misc/redshift
+x11-terms/alacritty
+x11-apps/xmodmap
+www-client/firefox-bin
 app-text/atril
+app-admin/keepassxc
+x11-terms/xterm
