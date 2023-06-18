@@ -1,4 +1,5 @@
 app-admin/sudo
+app-portage/eix
 sys-fs/f2fs-tools
 app-misc/neofetch
 dev-vcs/git
@@ -6,6 +7,7 @@ app-misc/tmux
 media-video/mpv
 app-editors/vim
 media-sound/alsa-utils
+# for any graphical install
 x11-base/xorg-server
+# for appimages to work
 sys-fs/fuse:0
-app-portage/eix
