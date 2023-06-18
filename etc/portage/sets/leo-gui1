@@ -1,6 +1,11 @@
+# Terminals
 x11-terms/alacritty
+x11-terms/xterm
+
+# Rebindings
 x11-apps/xmodmap
+
+# Essential apps
 www-client/firefox-bin
 app-text/atril
 app-admin/keepassxc
-x11-terms/xterm
