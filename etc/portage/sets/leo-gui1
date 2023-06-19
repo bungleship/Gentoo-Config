@@ -6,6 +6,7 @@ x11-terms/xterm
 x11-apps/xmodmap
 
 # Essential apps
+media-sound/audacity
 www-client/firefox-bin
 app-text/atril
 app-admin/keepassxc
