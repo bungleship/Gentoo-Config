@@ -17,7 +17,7 @@ fi
 
 # Put your fun stuff here.
 alias tach="tmux attach"
-alias esync="emerge --sync && emerge -Udu @world && eix-update -q && echo 'all done x'"
+alias esync="sudo emerge --sync && sudo emerge -Udu @world && sudo eix-update -q && echo 'all done x'"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
