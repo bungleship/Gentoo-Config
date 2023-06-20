@@ -1,11 +1,14 @@
-# Device configs
+# Tweaking
 x11-apps/xmodmap
+x11-misc/gammastep
+# packs
+media-fonts/alee-fonts
 
 # Essential apps
-app-arch/xarchiver
-x11-terms/alacritty
-media-sound/audacity
-x11-misc/gammastep
-www-client/firefox-bin
-app-text/atril
 app-admin/keepassxc
+app-arch/xarchiver
+app-text/atril
+media-sound/audacity
+media-video/simplescreenrecorder
+www-client/firefox-bin
+x11-terms/alacritty
