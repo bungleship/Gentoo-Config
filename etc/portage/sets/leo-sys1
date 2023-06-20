@@ -9,5 +9,3 @@ app-editors/vim
 media-sound/alsa-utils
 # for any graphical install
 x11-base/xorg-server
-# for appimages to work
-sys-fs/fuse:0
