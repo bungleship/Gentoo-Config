@@ -19,6 +19,8 @@ fi
 alias tach="tmux attach"
 alias esync="sudo emerge --sync && sudo emerge -Udu @world && sudo eix-update -q && echo 'all done x'"
 alias condals="conda env export --from-history"
+# for pywal
+export PATH="${PATH}:${HOME}/.local/bin/"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
