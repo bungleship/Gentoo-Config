@@ -8,7 +8,9 @@ media-fonts/alee-fonts
 app-admin/keepassxc
 app-arch/xarchiver
 app-text/atril
+media-gfx/gthumb
 media-sound/audacity
 media-video/simplescreenrecorder
+media-video/vlc
 www-client/firefox-bin
 x11-terms/alacritty
