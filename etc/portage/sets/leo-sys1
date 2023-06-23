@@ -1,11 +1,11 @@
 app-admin/sudo
-app-portage/eix
-sys-fs/f2fs-tools
-app-misc/neofetch
-dev-vcs/git
-app-misc/tmux
-media-video/mpv
 app-editors/vim
+app-misc/neofetch
+app-misc/tmux
+app-portage/eix
+dev-vcs/git
 media-sound/alsa-utils
-# for any graphical install
+media-video/mpv
+net-misc/yt-dlp
+sys-fs/f2fs-tools
 x11-base/xorg-server
