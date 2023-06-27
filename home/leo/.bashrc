@@ -17,7 +17,7 @@ fi
 
 # Put your fun stuff here.
 alias tach="tmux attach"
-alias esync="sudo emerge --sync && sudo emerge -Udu @world && sudo eix-update -q && echo 'all done x'"
+alias esync="sudo emerge --sync && sudo emerge --ask -Udu @world && sudo eix-update -q && echo 'all done x'"
 alias condals="conda env export --from-history"
 alias world="eix -c --selected-file"
 
