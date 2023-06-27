@@ -1,0 +1,13 @@
+app-benchmarks/stress
+app-misc/asciinema
+gnome-extra/gnome-weather
+media-fonts/alee-fonts
+media-gfx/imagemagick
+media-sound/ecasound
+sci-geosciences/gnome-maps
+sys-firmware/intel-microcode
+sys-kernel/gentoo-kernel-bin
+sys-kernel/linux-firmware
+x11-apps/xrandr
+x11-misc/xclip
+xfce-base/thunar
