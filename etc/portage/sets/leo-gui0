@@ -1,11 +1,21 @@
+# Tweaking
+x11-apps/xmodmap
+x11-misc/gammastep
+
+# Essential apps
 app-admin/keepassxc
 app-arch/xarchiver
 app-text/atril
+gnome-extra/gnome-weather
 media-gfx/gthumb
 media-sound/audacity
 media-video/simplescreenrecorder
 media-video/vlc
+sci-geosciences/gnome-maps
 www-client/firefox-bin
-x11-apps/xmodmap
-x11-misc/gammastep
 x11-terms/alacritty
+
+# for apps like freetube and appimages
+dev-libs/nss
+sys-fs/fuse:0
+dev-libs/wayland
