@@ -12,6 +12,7 @@ media-sound/audacity
 media-video/simplescreenrecorder
 media-video/vlc
 sci-geosciences/gnome-maps
+sys-apps/gnome-disk-utility
 www-client/firefox-bin
 x11-terms/alacritty
 
