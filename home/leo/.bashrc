@@ -19,6 +19,7 @@ fi
 alias tach="tmux attach"
 alias esync="sudo emerge --sync && sudo emerge --ask -Udu @world && sudo eix-update -q && echo 'all done x'"
 alias condals="conda env export --from-history"
+alias playlist="yt-dlp --embed-metadata --restrict-filenames -f 140 --write-thumbnail --output '~/Media/albums/%(playlist)s/%(title)s.%(ext)s'"
 alias world="eix -c --selected-file"
 
 # >>> conda initialize >>>
