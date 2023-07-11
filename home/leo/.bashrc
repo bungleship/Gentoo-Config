@@ -21,6 +21,7 @@ alias esync="sudo emerge --sync && sudo emerge --ask -Udu @world && sudo eix-upd
 alias condals="conda env export --from-history"
 alias playlist="yt-dlp --embed-metadata --restrict-filenames -f 140 --write-thumbnail --output '~/Media/albums/%(playlist)s/%(title)s.%(ext)s'"
 alias world="eix -c --selected-file"
+alias metawipe="exiftool -all= -overwrite_original -r"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
