@@ -4,11 +4,15 @@ media-fonts/alee-fonts
 media-libs/exiftool
 media-libs/mutagen
 media-sound/easytag
+media-sound/lollypop
 media-sound/mixxx
 media-sound/moc
 media-sound/rhythmbox
 net-misc/aria2
+net-p2p/biglybt
+net-p2p/qbittorrent
 net-vpn/wireguard-tools
+net-wireless/blueman
 sci-mathematics/jags
 sys-apps/bat
 sys-firmware/intel-microcode
