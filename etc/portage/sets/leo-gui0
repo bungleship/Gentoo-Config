@@ -9,14 +9,13 @@ app-text/atril
 gnome-extra/gnome-weather
 media-gfx/gthumb
 media-sound/audacity
+media-sound/rhythmbox
 media-video/simplescreenrecorder
 media-video/vlc
+net-p2p/qbittorrent
 sci-geosciences/gnome-maps
 sys-apps/gnome-disk-utility
 www-client/firefox-bin
+www-client/librewolf-bin
+x11-misc/qtfm
 x11-terms/alacritty
-
-# for apps like freetube and appimages
-dev-libs/nss
-sys-fs/fuse:0
-dev-libs/wayland
