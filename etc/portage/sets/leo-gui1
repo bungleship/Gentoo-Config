@@ -1,3 +1,9 @@
+# Window Manager and utilities
 media-gfx/scrot
 x11-misc/xlockmore
 x11-wm/spectrwm
+
+# Graphical app dependencies
+dev-libs/nss
+sys-fs/fuse:0
+dev-libs/wayland
