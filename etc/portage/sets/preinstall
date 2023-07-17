@@ -1,4 +1,4 @@
-# After installing kernel
+# After installing kernel, before a reboot
 
 sys-apps/mlocate
 sys-boot/grub
