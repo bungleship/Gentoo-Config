@@ -1,5 +1,5 @@
+media-gfx/scrot
 x11-apps/xmodmap # mouse config
 x11-misc/gammastep # redshift
-media-gfx/scrot
 x11-misc/xlockmore # lockscreen
 x11-wm/spectrwm # window manager
