@@ -1,7 +1,5 @@
 media-fonts/alee-fonts # korean
 media-libs/exiftool
-net-misc/aria2
 net-vpn/wireguard-tools
 sys-apps/bat
-www-apps/jellyfin
 x11-misc/xclip
