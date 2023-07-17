@@ -70,7 +70,8 @@ emerge --depclean
 First, set a hostname. Then grab all the system tools in sys0. Don't forget rc-updates
 ```bash
 echo ${hostname} > /etc/hostname
-emerge --ask @leo-sys0
+emerge --ask @preinstall
+# emerge --config sys-process/fcron
 # rc-update ${} default
 ```
 There are some things you want to configure:
