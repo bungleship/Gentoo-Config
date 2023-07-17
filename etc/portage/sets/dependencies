@@ -1,0 +1,3 @@
+dev-libs/nss
+sys-fs/fuse:0 # for appimages
+dev-libs/wayland
