@@ -7,5 +7,5 @@ sys-boot/grub
 # rc-update add {package} default
 net-misc/dhcpcd
 app-admin/sysklogd
-sys-process/cronie
+sys-process/fcron
 net-misc/chrony # chronyd for rc-update
