@@ -1,8 +1,3 @@
-# Tweaking
-x11-apps/xmodmap
-x11-misc/gammastep
-
-# Essential apps
 app-admin/keepassxc
 app-arch/xarchiver
 app-text/atril
@@ -10,13 +5,10 @@ gnome-extra/gnome-weather
 media-gfx/gthumb
 media-sound/audacity
 media-sound/easytag
-media-sound/rhythmbox
 media-video/simplescreenrecorder
-media-video/vlc
 net-p2p/qbittorrent
 sci-geosciences/gnome-maps
 sys-apps/gnome-disk-utility
 www-client/firefox-bin
 www-client/librewolf-bin
-x11-misc/qtfm
 x11-terms/alacritty
