@@ -22,6 +22,7 @@ alias condals="conda env export --from-history"
 alias playlist="yt-dlp --embed-metadata --restrict-filenames -f 140 --write-thumbnail --output '~/Media/albums/%(playlist)s/%(title)s.%(ext)s'"
 alias world="eix -c --selected-file"
 alias metawipe="exiftool -all= -overwrite_original -r"
+alias btop="btop -p 2"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
