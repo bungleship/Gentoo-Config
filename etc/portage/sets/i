@@ -1,9 +1,0 @@
-app-admin/sudo
-app-editors/vim
-app-misc/tmux
-app-portage/eix
-dev-vcs/git
-media-sound/alsa-utils
-media-video/mpv
-sys-apps/lshw
-x11-base/xorg-server
