@@ -1,0 +1,4 @@
+app-admin/sysklogd
+net-misc/chrony
+net-misc/dhcpcd
+sys-process/fcron
