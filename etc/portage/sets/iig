@@ -12,8 +12,8 @@ media-gfx/gthumb
 media-sound/audacity
 media-sound/easytag
 media-sound/rhythmbox
+media-video/celluloid
 media-video/simplescreenrecorder
-media-video/vlc
 sci-geosciences/gnome-maps
 sys-apps/gnome-disk-utility
 x11-terms/alacritty
