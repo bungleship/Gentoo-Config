@@ -1,6 +1,7 @@
 app-admin/mongosh-bin
 app-admin/sudo
 app-editors/vim
+app-misc/nnn
 app-misc/tmux
 app-portage/eix
 media-libs/exiftool
