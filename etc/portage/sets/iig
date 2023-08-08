@@ -5,6 +5,7 @@ app-dicts/gnome-dictionary
 app-editors/mousepad
 app-text/atril
 app-text/xournalpp
+app-text/zotero-bin
 gnome-base/nautilus
 gnome-extra/gnome-boxes
 gnome-extra/gnome-weather
