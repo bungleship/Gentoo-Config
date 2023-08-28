@@ -1,4 +1,5 @@
 app-eselect/eselect-repository
+app-portage/gentoolkit
 dev-vcs/git
 media-fonts/alee-fonts # korean chars
 media-sound/alsa-utils
@@ -6,6 +7,7 @@ media-video/mpv
 sys-apps/etckeeper
 sys-boot/grub
 sys-fs/f2fs-tools
+sys-fs/ntfs3g
 x11-misc/xclip
 # Gentoo Handbook Recommended
 app-shells/bash-completion
