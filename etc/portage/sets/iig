@@ -1,8 +1,6 @@
 app-admin/keepassxc
 app-arch/file-roller
-app-crypt/veracrypt
 app-dicts/gnome-dictionary
-app-editors/mousepad
 app-office/libreoffice-bin
 app-text/atril
 app-text/xournalpp
@@ -10,15 +8,10 @@ app-text/zotero-bin
 gnome-base/nautilus
 gnome-extra/gnome-boxes
 gnome-extra/gnome-weather
-media-gfx/gnome-screenshot
 media-gfx/gthumb
 media-sound/audacity
-media-sound/easytag
-media-sound/rhythmbox
 media-video/celluloid
 media-video/simplescreenrecorder
 sci-geosciences/gnome-maps
 sys-apps/gnome-disk-utility
 www-client/librewolf
-x11-terms/alacritty
-
