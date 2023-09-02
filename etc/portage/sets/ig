@@ -6,5 +6,6 @@ x11-misc/gammastep # night light in autostart
 x11-misc/nitrogen # set wallpaper then autorun
 x11-misc/slock # lockscreen, open with user password
 x11-misc/xcompmgr # run this for zoom blackscreen
+x11-terms/alacritty
 x11-wm/spectrwm # window manager
 
