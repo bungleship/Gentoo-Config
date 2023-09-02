@@ -3,6 +3,7 @@ app-arch/file-roller
 app-crypt/veracrypt
 app-dicts/gnome-dictionary
 app-editors/mousepad
+app-office/libreoffice-bin
 app-text/atril
 app-text/xournalpp
 app-text/zotero-bin
