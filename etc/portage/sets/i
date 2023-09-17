@@ -1,7 +1,9 @@
 app-eselect/eselect-repository
 app-portage/gentoolkit
+app-vim/gentoo-syntax
 dev-vcs/git
 media-fonts/alee-fonts # korean chars
+media-fonts/opendesktop-fonts # chinese chars
 media-sound/alsa-utils
 media-video/mpv
 sys-apps/etckeeper
@@ -13,4 +15,3 @@ x11-misc/xclip
 app-shells/bash-completion
 sys-apps/mlocate # faster file location capabilities
 # ---
-
