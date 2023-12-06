@@ -1,0 +1,6 @@
+media-libs/libva-intel-driver
+sys-apps/portage
+sys-firmware/intel-microcode
+sys-fs/ecryptfs-utils
+sys-kernel/gentoo-kernel-bin
+sys-kernel/linux-firmware
