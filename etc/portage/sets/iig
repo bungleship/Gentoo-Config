@@ -1,8 +1,10 @@
 app-admin/keepassxc
 app-arch/file-roller
 app-dicts/gnome-dictionary
+app-editors/gummi
 app-office/libreoffice-bin
 app-text/atril
+app-text/pdfarranger
 app-text/xournalpp
 app-text/zotero-bin
 gnome-base/nautilus
@@ -13,6 +15,7 @@ media-sound/audacity
 media-video/celluloid
 media-video/pitivi
 media-video/simplescreenrecorder
+net-misc/freetube-bin
 sci-geosciences/gnome-maps
 sys-apps/gnome-disk-utility
 www-client/librewolf
