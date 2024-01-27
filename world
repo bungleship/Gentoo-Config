@@ -1,5 +1,5 @@
 media-libs/libva-intel-driver
-sys-apps/portage
+net-p2p/syncthing
 sys-firmware/intel-microcode
 sys-fs/ecryptfs-utils
 sys-kernel/gentoo-kernel-bin
