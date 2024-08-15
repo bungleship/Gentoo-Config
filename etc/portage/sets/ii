@@ -2,9 +2,10 @@ app-admin/sudo
 app-editors/vim
 app-misc/nnn
 app-misc/tmux
+app-office/hledger-ui
 app-portage/eix
-dev-lang/R
 media-libs/exiftool
+media-sound/cmus
 net-misc/aria2
 net-misc/yt-dlp
-
+sys-apps/bat
