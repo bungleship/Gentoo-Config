@@ -1,13 +1,19 @@
 app-eselect/eselect-repository
 app-portage/gentoolkit
+app-text/dvipng
+app-text/texlive
 app-vim/gentoo-syntax
+dev-db/redis
 dev-vcs/git
-media-fonts/alee-fonts # korean chars
+media-fonts/noto-cjk # korean
+#media-fonts/alee-fonts # korean chars
 media-fonts/opendesktop-fonts # chinese chars
 media-sound/alsa-utils
 media-video/mpv
+net-p2p/syncthing
 sys-apps/etckeeper
 sys-boot/grub
+sys-fs/dosfstools
 sys-fs/f2fs-tools
 sys-fs/ntfs3g
 x11-misc/xclip
