@@ -1,4 +1,5 @@
 media-libs/libva-intel-driver
+net-im/zoom
 net-p2p/syncthing
 sys-firmware/intel-microcode
 sys-fs/ecryptfs-utils
