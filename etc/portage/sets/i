@@ -5,6 +5,7 @@ app-text/texlive
 app-vim/gentoo-syntax
 dev-db/redis
 dev-vcs/git
+media-fonts/jetbrains-mono
 media-fonts/noto-cjk # korean
 #media-fonts/alee-fonts # korean chars
 media-fonts/opendesktop-fonts # chinese chars
